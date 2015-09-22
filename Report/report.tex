@@ -1,0 +1,110 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% BEGIN HEADERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt,conference]{IEEEtran}
+
+\usepackage{longtable}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{natbib}
+
+% Your names in the header
+\pagestyle{fancy}
+\rhead{Enrico Tedeschi}
+\lhead{INF-3200 Distributed Systems - Assignment 1}
+\cfoot{\thepage}
+
+% Used for including code in a stylized manner
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+ 
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+% The Title
+\title{INF-3200 Distributed Systems}
+
+% Your name and email
+\author{\textbf{Enrico Tedeschi}\\ ete011@post.uit.no }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END HEADERS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Create the title and everything
+\maketitle
+
+
+\section{Introduction}
+
+\subsection{Requirements}
+\begin{itemize} 
+\item A given sequential Mandelbrot set creates a parallel static and dynamic version using MPI
+\item Run it on a cluster
+\item Evaluate speedup
+\end{itemize}
+
+
+\section{Technical Background}
+
+\begin{itemize} 
+\item[--] Concurrency and parallelism concepts
+\item[--] Basic programming approach
+\item[--] Knowledge of C language
+\item[--] Notion of design pattern principles
+\item[--] Theory about software engineering
+\item[--] Knowledge of git to manage the software versions
+\end{itemize}
+
+
+\section{Analysis}
+The interesting thing about DHTs is that storage and lookups are distributed among multiple machines \cite{citation1}
+
+
+\section{Implementation}
+
+\subsection{Design and Main Schema}
+
+\subsection{Static Implementation}
+\subsubsection{\textbf{Master}}
+\subsubsection{\textbf{Slave}}
+\subsection{Dynamic Implementation}
+\subsubsection{\textbf{Master}}
+\subsubsection{\textbf{Slave}}
+\subsection{Environment}
+\section{Result and Benchmarking}
+\section{Discussion}
+
+\section{Conclusion}
+
+\bibliographystyle{plain}
+\bibliography{report}
+
+
+\end{document}
+
